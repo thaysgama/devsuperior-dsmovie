@@ -10,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class MovieDto {
+public class MovieDTO {
 
     private Long id;
     private String title;
@@ -18,7 +18,7 @@ public class MovieDto {
     private Integer count;
     private String image;
 
-    public MovieDto(Movie movie) {
+    public MovieDTO(Movie movie) {
         this.id = movie.getId();
         this.title = movie.getTitle();
         this.score = movie.getScore();
